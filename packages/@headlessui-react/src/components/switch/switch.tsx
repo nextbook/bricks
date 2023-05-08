@@ -144,7 +144,6 @@ function SwitchFn<TTag extends ElementType = typeof DEFAULT_SWITCH_TAG>(
   let toggle = useEvent(() => onChange?.(!checked))
   let handleClick = useEvent((event: ReactMouseEvent) => {
     if (isDisabledReactIssue7711(event.currentTarget)) return event.preventDefault()
-    event.preventDefault()
     toggle()
   })
   let handleKeyUp = useEvent((event: ReactKeyboardEvent<HTMLButtonElement>) => {
