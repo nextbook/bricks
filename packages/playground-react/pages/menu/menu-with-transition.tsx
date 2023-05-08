@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menu, Transition } from '@headlessui/react'
+import { Menu, Transition } from '@nextbook/headlessui-react'
 import { classNames } from '../../utils/class-names'
 import { Button } from '../../components/button'
 

@@ -187,7 +187,7 @@ function SwitchFn<TTag extends ElementType = typeof DEFAULT_SWITCH_TAG>(
 
   return (
     <>
-      {name != null && checked && (
+      {name != null && !checked && (
         <Hidden
           features={HiddenFeatures.Hidden}
           {...compact({
@@ -196,7 +196,7 @@ function SwitchFn<TTag extends ElementType = typeof DEFAULT_SWITCH_TAG>(
             hidden: true,
             readOnly: true,
             form,
-            checked,
+            checked: true,
             name,
             value,
           })}

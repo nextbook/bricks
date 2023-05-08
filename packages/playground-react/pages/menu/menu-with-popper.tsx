@@ -1,6 +1,6 @@
 import React, { ReactNode, useState, useEffect } from 'react'
 import { createPortal } from 'react-dom'
-import { Menu } from '@headlessui/react'
+import { Menu } from '@nextbook/headlessui-react'
 
 import { usePopper } from '../../utils/hooks/use-popper'
 import { classNames } from '../../utils/class-names'

@@ -1,5 +1,5 @@
 import { Fragment, useRef, useState } from 'react'
-import { Dialog, Transition } from '@headlessui/react'
+import { Dialog, Transition } from '@nextbook/headlessui-react'
 import { ExclamationIcon } from '@heroicons/react/outline'
 
 export default function Example() {

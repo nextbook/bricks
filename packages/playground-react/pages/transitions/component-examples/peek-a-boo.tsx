@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Transition } from '@headlessui/react'
+import { Transition } from '@nextbook/headlessui-react'
 
 export default function Home() {
   let [isOpen, setIsOpen] = useState(true)

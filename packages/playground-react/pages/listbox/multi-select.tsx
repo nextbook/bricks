@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Listbox } from '@headlessui/react'
+import { Listbox } from '@nextbook/headlessui-react'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')

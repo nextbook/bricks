@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Switch, RadioGroup, Listbox, Combobox } from '@headlessui/react'
+import { Switch, RadioGroup, Listbox, Combobox } from '@nextbook/headlessui-react'
 import { classNames } from '../../utils/class-names'
 import { Button } from '../../components/button'
 

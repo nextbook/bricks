@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Combobox } from '@headlessui/react'
+import { Combobox } from '@nextbook/headlessui-react'
 
 import { classNames } from '../../utils/class-names'
 import { Button } from '../../components/button'

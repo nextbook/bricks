@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Switch } from '@headlessui/react'
+import { Switch } from '@nextbook/headlessui-react'
 
 import { classNames } from '../../utils/class-names'
 

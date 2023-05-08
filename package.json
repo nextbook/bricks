@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "description": "Headless UI components for various libraries like React and Vue",
   "main": "index.js",
-  "repository": "https://github.com/tailwindlabs/headlessui",
+  "repository": "https://github.com/nextbook/headlessui",
   "license": "MIT",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "react": "yarn workspace @headlessui/react",
+    "react": "yarn workspace @nextbook/headlessui-react",
     "react-playground": "yarn workspace playground-react dev",
     "playground-react": "yarn workspace playground-react dev",
     "vue": "yarn workspace @headlessui/vue",

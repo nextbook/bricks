@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from 'react'
 import Flatpickr from 'react-flatpickr'
-import { Dialog, Menu, Portal, Transition } from '@headlessui/react'
+import { Dialog, Menu, Portal, Transition } from '@nextbook/headlessui-react'
 import { usePopper } from '../../utils/hooks/use-popper'
 import { classNames } from '../../utils/class-names'
 import { Button } from '../../components/button'

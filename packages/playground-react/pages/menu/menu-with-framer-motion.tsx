@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react'
 import Link from 'next/link'
-import { Menu, MenuItemProps } from '@headlessui/react'
+import { Menu, MenuItemProps } from '@nextbook/headlessui-react'
 import { AnimatePresence, motion } from 'framer-motion'
 
 import { classNames } from '../../utils/class-names'

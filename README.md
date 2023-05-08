@@ -1,3 +1,18 @@
+# @nextbook/headlessui
+
+Republished `@headlessui-react` with some changes to make it work better without JavaScript:
+
+- Inverted the hidden `<input type="checkbox" />` state to be the **opposite** of the actual state, so that it has the correct value to send along with the form, which is submitted when the toggle is clicked.
+
+## How to publish
+
+```bash
+yarn
+yarn build
+cd packages/@headlessui-react
+yarn publish
+```
+
 <h3 align="center">
   Headless UI
 </h3>

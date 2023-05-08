@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Combobox } from '@headlessui/react'
+import { Combobox } from '@nextbook/headlessui-react'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')

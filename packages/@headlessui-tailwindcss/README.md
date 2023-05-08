@@ -50,7 +50,7 @@ following variants:
 Example:
 
 ```js
-import { Menu } from '@headlessui/react'
+import { Menu } from '@nextbook/headlessui-react'
 
 function MyDropdown() {
   return (

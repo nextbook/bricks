@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { RadioGroup } from '@headlessui/react'
+import { RadioGroup } from '@nextbook/headlessui-react'
 import { classNames } from '../../utils/class-names'
 
 export default function Home() {

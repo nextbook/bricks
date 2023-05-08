@@ -16,7 +16,7 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
-      "@headlessui/react": ["src"],
+      "@nextbook/headlessui-react": ["src"],
       "*": ["src/*", "node_modules/*"]
     },
     "jsx": "react",

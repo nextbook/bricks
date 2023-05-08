@@ -1,5 +1,5 @@
 import React from 'react'
-import { Disclosure, Transition } from '@headlessui/react'
+import { Disclosure, Transition } from '@nextbook/headlessui-react'
 
 export default function Home() {
   return (

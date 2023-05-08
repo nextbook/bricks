@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from 'react'
-import { Dialog, Transition } from '@headlessui/react'
+import { Dialog, Transition } from '@nextbook/headlessui-react'
 
 export default function Home() {
   let [isOpen, setIsOpen] = useState(false)
