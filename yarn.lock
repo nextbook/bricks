@@ -722,7 +722,7 @@
   integrity sha512-JtYuWzKXKLDMgE/xTcFtCm1MiCIRaAc5XYZfYX3n/ZWSI1SJS/GMm+Su0SAHJgRFavJh6U/p998YwO/iGTIgqQ==
 
 "@nextbook/headlessui-react@*":
-  version "1.7.14-0.0.1"
+  version "1.7.14-0.0.2"
   dependencies:
     client-only "^0.0.1"
 
