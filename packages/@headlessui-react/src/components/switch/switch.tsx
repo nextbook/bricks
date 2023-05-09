@@ -15,7 +15,7 @@ import React, {
 } from 'react'
 
 import { Props } from '../../types'
-import { forwardRefWithAs, render, compact, HasDisplayName, RefProp } from '../../utils/render'
+import { forwardRefWithAs, render, HasDisplayName, RefProp } from '../../utils/render'
 import { useId } from '../../hooks/use-id'
 import { Keys } from '../keyboard'
 import { isDisabledReactIssue7711 } from '../../utils/bugs'
@@ -23,7 +23,6 @@ import { ComponentLabel, Label, useLabels } from '../label/label'
 import { ComponentDescription, Description, useDescriptions } from '../description/description'
 import { useResolveButtonType } from '../../hooks/use-resolve-button-type'
 import { useSyncRefs } from '../../hooks/use-sync-refs'
-import { Hidden, Features as HiddenFeatures } from '../../internal/hidden'
 import { attemptSubmit } from '../../utils/form'
 import { useEvent } from '../../hooks/use-event'
 import { useControllable } from '../../hooks/use-controllable'
@@ -186,26 +185,7 @@ function SwitchFn<TTag extends ElementType = typeof DEFAULT_SWITCH_TAG>(
     })
   }, [internalSwitchRef, onChange /* Explicitly ignoring `defaultValue` */])
 
-  return (
-    <>
-      {name != null && checked && (
-        <Hidden
-          features={HiddenFeatures.Hidden}
-          {...compact({
-            as: 'input',
-            type: 'checkbox',
-            hidden: true,
-            readOnly: true,
-            form,
-            checked,
-            name,
-            value,
-          })}
-        />
-      )}
-      {render({ ourProps, theirProps, slot, defaultTag: DEFAULT_SWITCH_TAG, name: 'Switch' })}
-    </>
-  )
+  return render({ ourProps, theirProps, slot, defaultTag: DEFAULT_SWITCH_TAG, name: 'Switch' })
 }
 
 // ---
